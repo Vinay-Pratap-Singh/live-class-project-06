@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#navbarMonstera{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    font-family: "Allerta";
+}
+
+#navFirst img{
+    width: 80px;
+    height: 40px;
+    margin: 0 40px;
+}
+
+#navMid{
+    width: 60%;
+    margin: 0 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 0.9rem;
+}
+
+#navMid div:first-child{
+    border-bottom: 2px solid black;
+}
+
+#navEnd{
+    width: 15%;
+    margin: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#navEnd img{
+    width: 20px;
+    height: 20px;
+}
+
+/* Styling the Middle Part */
+#midWhole{
+    font-family: "Allerta";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#midWholePart11{
+    margin: 0 40px;
+}
+
+#midWholePart11 li{
+    color: #000000;
+    font-weight:lighter;
+    font-size: 0.9rem;
+    width: 80%;
+}
+
+#monstera{
+    padding-top: 50px;
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+
+#midWholePart121 h1{
+    width: 34%;
+    background-color: #466d50;
+    color: white;
+    margin: 50px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.8rem;
+    font-weight: lighter;
+}
+
+#midWholePart122{
+    position: absolute;
+    left: 232px;
+    top: 427px;
+}
+
+#midWholePart122 img{
+    width: 18px;
+    height: 18px;
+}
+
+#midWholePart13{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px;
+}
+
+.midWholePart13Parts{
+    display: flex;
+}
+
+.midWholePart13Parts img{
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.midWholePart13Parts h4{
+    font-size: 0.9rem;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 0.5rem;
+    width: 80%;
+}
+
+#imgMain{
+    margin-top: 15px;
+    width: 500px;
+    max-height: 510px;
+}
